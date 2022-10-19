@@ -1,14 +1,19 @@
-# Network-analytics
+# Analytics Methods for Business
 
-## Module overview
+# Module Description
 
-Networks are ubiquitous: job offerings reach us via inter-personal connections; what we see on the screen of our digital device is a function of the relationships we develop in the digital world; market valuations are ― largely ― the byproduct of social influence, which accumulates and spreads over relations. This module provides students with cutting-edge network theories and practical tools to appreciate the organization and functioning of disparate networks. Ultimately, the goal is to develop a distinctive angle on how networks bring value to individuals, organizations, and communities.
+This module provides a collection of standard analytical methods and explains how data analysis is performed in the real world. Practical solutions are developed and represent an introduction to specific tasks that a business analyst completes on a daily basis that ultimately would help in analysing, communicating and validating recommendations to change the business and policies of an organisation.
 
-## Learning objectives
+ All concepts are introduced by providing the necessary theoretical background followed by real-life data analytics tasks that inevitably involve computer-based exercises that fully exemplify how the entire analysis is performed before the recommendations are disseminated to the end-user. 
 
-- appreciate the properties of networks;
-- appreciate the properties of communities of nodes belonging to a network;
-- appreciate the properties of individual nodes belonging to a network;
-- visually represent the key features of networks;
-- leverage the most advanced Python modules for network analytics;
-- mobilize key network analytics notions and tools in order to produce elegant, effective, and efficient solutions to practical problems in the field of business strategy, product innovation, and operations.
+The topics covered are related to standard quantitative methods and will include:
+
+- Probability Distributions
+- Simple Linear Regression
+- Multiple Linear Regression
+- Regression using Dummy Variables
+- Linear Probability Model, Logit and Probit Regression
+- Penalised Regression Models
+- Generalised Linear Model
+- Generalised Additive Models
+- Cluster Analysis
