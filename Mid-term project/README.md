@@ -4,7 +4,11 @@ For this assignment you need to use dataframe wage collected in the March 1988 b
 
 The aim of the analysis is to model the response variable wage as a function of the variables described above.
 Using these data, write a report addressing the following points:
+
 (a) Justification of the chosen regression model specification.
+
 (b) Using the final model, provide a summary (e.g., using tables and figures) of the empirical findings as well as interpretation of the estimated model parameters.
+
 (c) Provide recommendations and limitations of your analysis.
+
 (d) What did you learn from the analysis? What is the answer, if any, to the questions you set out to address? Which recommendations can you give? How can the analysis be improved?
