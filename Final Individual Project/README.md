@@ -1,20 +1,18 @@
 # Final Individal Course Project
 
-## Project background
-The compound of technologies we use to call 'AI' promises to revolutionize many sectors. However, there is a substantial gap between what firms say they do with AI and what they actually do with it [1]. Several factors could account for such a gap: the adoption of AI tools is costly since it tends to jeopardize an incumbent's operations [2]; there is a shortage of human capital trained in the area of AI [3]; developing AI applcations may require businesses to cope with ethical/societal implications [4, 5] and regulatory issues [6]. In the context of knowledge intensive industries, there is yet another obstacle to the diffusion of AI, namely, 'professionals.' While some individuals may be thrilled to integrate AI in their daily work, some others may just feel threatened. This FCP deals with the distribution of security traders opinions about the impact AI can make on 'trading floors.'
+## Project Description
 
-## Aim & context
-You're a 'quant' business analyst working for a consultancy company that has to help a client to sustain the diffusion of AI. Specifically, the client is a large investment bank that would like to persuade traders to engage more with AI tools when it comes evaluating securities.
+For this assignment you need to use data frame wine which contains information on prices and growing characteristics of 25 Bordeaux wines from 1952 to 1998. The data frame contains 7 columns and 47 rows. The columns are: year of production year, average price of the wines as a percentage of the 1961 price (price), mm of rain in the harvest month (h.rain), average temperature (C) over the summer preceding harvest (s.temp), mm of rain in the winter preceding harvest (w.rain), average temperature (C) at har- vest (h.temp), a rating of the wine quality (parker).
 
-## Dataset
-In order to get a better understanding of traders' attitudes toward AI, you have circulated a survey in a large trading floor located in Canary Wharf. The resulting dataset (trading_floor.xml) contains 192 responses regarding:
+See https://www.wine-searcher.com/critics-27-robert+parker+the+wine+advocate for details on parker.
 
-- the undirected network of knowledge exchange between traders (traders A and B are connected when A says he/she shares technical and industry knowledge with B and vice versa)
-- a trader's opinion about the contribution of AI to his/her productivity and effectiveness in evaluating securities (1 = not at all; 10 = to a great extent). In the datasets, this variable is reported as the node attribute ai.
-Thanks to the cooperation of the client, you also know the traders' location in the floor. There are six zones, each of which hosts 32 individuals (16 individuals on each side of the zone). The above-displayed picture gives you an idea of the layout of the trading floor. In the dataset, the location of traders is reported as two node attributes, that is, x-pos and y-pos.
+The aim of the analysis is to model the response variable price as a function of the variables described above.
+Using these data, write a report addressing the following points:
 
-## Questions
-1. How do traders' opinions map onto the knowledge exchange network?
-2. How do traders' opinions map onto the physical layout of the trading floor?
-3. What are the network-related obstacles to the diffusion of positive opinions about AI in the trading floor?
-4. What is your recommendation to promote the diffusion of positive opinions about AI in the trading floor?
+(a) Justification of the chosen regression model specification.
+
+(b) Using the final model, provide a summary (e.g., using tables and figures) of the empirical findings as well as interpretation of the estimated model parameters.
+
+(c) Provide recommendations and limitations of your analysis.
+
+(d) What did you learn from the analysis? What is the answer, if any, to the questions you set out to address? How can the analysis be improved?
